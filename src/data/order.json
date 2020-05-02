@@ -1,0 +1,113 @@
+{
+  "data": {
+    "currency": {
+      "name": "USD",
+      "iso": "$"
+    },
+    "levels": [
+      {
+        "id": 1,
+        "name": "Entry"
+      },
+      {
+        "id": 2,
+        "name": "Professional"
+      },
+      {
+        "id": 3,
+        "name": "Military"
+      }
+    ]
+  },
+  "common": [
+    {
+      "doctypeId": 1,
+      "doctypeName": "Resume writing",
+      "levels": [
+        {
+          "value": 1,
+          "label": "Entry"
+        },
+        {
+          "value": 2,
+          "label": "Professional"
+        },
+        {
+          "value": 3,
+          "label": "Executive"
+        }
+      ],
+      "prices": [
+        {
+          "level": 1,
+          "originalPrice": 300.0,
+          "discountPrice": 250.0
+        },
+        {
+          "level": 2,
+          "originalPrice": 200.0,
+          "discountPrice": 150.5
+        },
+        {
+          "level": 3,
+          "originalPrice": 100.0,
+          "discountPrice": 50.0
+        }
+      ],
+      "additional": [
+        {
+          "id": 1,
+          "name": "linkedIn writeup",
+          "originalPrice": 99.0,
+          "discountPrice": 89.0
+        },
+        {
+          "id": 2,
+          "name": "Cover letter writing",
+          "originalPrice": 80.0,
+          "discountPrice": 62.0
+        }
+      ]
+    },
+    {
+      "doctypeId": 2,
+      "doctypeName": "Package: Resume + CV writing",
+      "levels": [
+        {
+          "value": 1,
+          "label": "Entry"
+        },
+        {
+          "value": 2,
+          "label": "Professional"
+        }
+      ],
+      "prices": [
+        {
+          "level": 1,
+          "originalPrice": 30.0,
+          "discountPrice": 28.0
+        },
+        {
+          "level": 2,
+          "originalPrice": 20.0,
+          "discountPrice": 10.0
+        }
+      ],
+      "additional": [
+        {
+          "id": 3,
+          "name": "Thank you & letters",
+          "originalPrice": 53.0,
+          "discountPrice": 53.0
+        },
+        {
+          "id": 2,
+          "name": "Cover letter writing",
+          "originalPrice": 80.0,
+          "discountPrice": 72.0
+        }
+      ]
+    }
+  ]
+}
